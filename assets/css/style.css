@@ -1,0 +1,89 @@
+/* Custom styles for Electronic Shop */
+:root {
+  --primary: #1a73e8;
+  --secondary: #fbbc05;
+  --dark: #222;
+  --light: #f8f9fa;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+}
+.hero-section {
+  background: linear-gradient(rgba(26,115,232,0.7), rgba(34,34,34,0.7)), url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+  color: #fff;
+  padding: 100px 0 80px 0;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 8px 32px rgba(26,115,232,0.1);
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero-section .btn {
+  font-size: 1.2rem;
+  padding: 0.75rem 2rem;
+}
+.card {
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(26,115,232,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(26,115,232,0.18);
+}
+.card-img-top, .img-fluid, .img-thumbnail {
+  border-radius: 14px;
+}
+.navbar {
+  box-shadow: 0 2px 8px rgba(26,115,232,0.06);
+}
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.footer {
+  background: var(--primary);
+  color: #fff;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 -4px 24px rgba(26,115,232,0.08);
+}
+.footer a {
+  color: #fff;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+.footer a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+blockquote {
+  background: #e3f0ff;
+  border-left: 5px solid var(--primary);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  color: #222;
+}
+input, textarea, select {
+  border-radius: 8px !important;
+}
+.btn-primary, .btn-success {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.btn-outline-secondary {
+  border-radius: 8px;
+  font-weight: 600;
+}
+.table {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.list-group-item {
+  border-radius: 8px !important;
+} 

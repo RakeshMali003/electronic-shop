@@ -1,0 +1,15 @@
+{
+    "name": "rakesh/electronic-shop",
+    "description": "website for selling",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rakesh\\ElectronicShop\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
